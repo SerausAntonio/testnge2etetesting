@@ -23,4 +23,10 @@
       <class name="testCases.TestFailure"/>
     </classes>
    </test> <!-- Test -->
+   
+   <test name = "Parameterization test">
+    <classes>  
+      <class name="parameterization.TestParameterization"/>
+    </classes>
+   </test> <!-- Test -->
 </suite> <!-- Suite -->
