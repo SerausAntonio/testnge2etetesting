@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Suite]">
-  <listeners>
-    <listener class-name="customListeners.Listeners"/>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-  </listeners>
-  <test name="Validate Title Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testCases.TestCase2">
+      <class name="parameterization.TestNGParameterizationExcel">
         <methods>
-          <include name="setUp"/>
-          <include name="validateTitles"/>
-          <include name="tearDown"/>
+          <include name="testData"/>
         </methods>
-      </class> <!-- testCases.TestCase2 -->
+      </class> <!-- parameterization.TestNGParameterizationExcel -->
     </classes>
-  </test> <!-- Validate Title Test(failed) -->
-</suite> <!-- Failed suite [Functional Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
